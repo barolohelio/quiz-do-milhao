@@ -4,7 +4,7 @@ import  {Questionario}  from "../components/Questionario";
 import QuestaoModel from "../model/questao";
 import { useRouter } from "../node_modules/next/router";
 
-const BASE_URL = 'https://quiz-do-milhao-orpin.vercel.app/api'
+const BASE_URL = 'https://quiz.barolo.dev.br/api'
 
 export default function Home() {
   const router = useRouter()

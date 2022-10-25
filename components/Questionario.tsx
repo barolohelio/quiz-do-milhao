@@ -23,7 +23,7 @@ export function Questionario(props: QuestionarioProps){
       {props.questao ?
           <Questao 
             valor={props.questao}
-            tempoPraResposta={10}
+            tempoPraResposta={20}
             respostaFornecida={respostaFornecida}
             tempoEsgotado={props.irParaProximoPasso}
           />
